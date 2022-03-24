@@ -9,6 +9,10 @@
 
   display: flex;
 
+  @media (max-width: 780px) {
+    margin-top: 15px;
+  }
+
   div {
     background: #835afd;
     padding: 0 12px;
@@ -23,8 +27,12 @@
     align-self: center;
     flex: 1;
     padding: 0 16px 0 12px;
-    width: 230px;
+    width: 240px;
     font-size: 14px;
     font-weight: 500;
+
+    @media (max-width: 780px) {
+      padding: 0;
+    }
   }
 }
